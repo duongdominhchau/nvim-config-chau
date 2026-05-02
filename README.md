@@ -9,7 +9,7 @@ Change your `~/.config/nvim/init.lua` to:
 
 ```lua
 vim.pack.add('https://github.com/duongdominhchau/nvim-config-chau')
-require('nvim-config-chau').setup {}
+require('nvim-config-chau').setup()
 ```
 
 That's it! I don't provide configuration because that takes time. If anyone want to reuse this and make the config more
