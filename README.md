@@ -3,6 +3,8 @@
 This is my personal config, the intention is to avoid copying files and use just built-in Neovim functionality to reuse
 it across machines.
 
+This plugin uses Neovim built-in package manager, so version 0.12 or later is required.
+
 # How to use
 
 Change your `~/.config/nvim/init.lua` to:
