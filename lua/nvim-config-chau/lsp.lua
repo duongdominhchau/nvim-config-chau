@@ -1,9 +1,9 @@
-require('config/mason')
+require('nvim-config-chau.mason')
 vim.pack.add { 'https://github.com/b0o/schemastore.nvim' }
 
 local schemastore = require('schemastore')
 
-vim.lsp.config('efm', require('config/efm_config'))
+vim.lsp.config('efm', require('nvim-config-chau.efm_config'))
 vim.lsp.enable('efm')
 
 vim.lsp.config('ts_ls', {
