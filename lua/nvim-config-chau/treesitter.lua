@@ -70,6 +70,7 @@ require('nvim-treesitter').install {
     'swift',
     'toml',
     'typescript',
+    'typespec',
     'typst',
     'unison',
     'xml',
