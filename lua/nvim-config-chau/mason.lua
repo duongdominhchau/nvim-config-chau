@@ -13,15 +13,11 @@ vim.pack.add {
 }
 require('mason-lspconfig').setup {
     ensure_installed = {
-        'html',
         'marksman',
 
         -- Writing
         'prosemd_lsp',
         'vale_ls',
-
-        'cssls',
-        'stylelint_lsp',
 
         'ts_ls',
 
@@ -39,13 +35,10 @@ require('mason-lspconfig').setup {
         'gopls',
         'golangci_lint_ls',
 
-        'jdtls',
         'kotlin_language_server',
         'gradle_ls',
 
         'clojure_lsp',
-        -- 'hls',
-        -- 'ocamllsp',
 
         'efm',
         'lua_ls',
